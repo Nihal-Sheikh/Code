@@ -1,0 +1,94 @@
+body {
+    overflow-x : hidden;
+    margin: 0%;
+    font-family: Arial,Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+.Background {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0%;
+    left: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+#Background1 {
+    z-index: 0;
+    transform: translate(0%, 0%);
+}
+#Background2 {
+    z-index: 0;
+    transform: translate(-100%, 0%);
+}
+#Background3 {
+    z-index: 0;
+    transform: translate(-100%, 0%);
+}
+#Background4 {
+    z-index: 0;
+    transform: translate(-100%, 0%);
+}
+#BackgroundR2 {
+    z-index: 0;
+    transform: translate(100%, 0%);
+}
+#BackgroundR3 {
+    z-index: 0;
+    transform: translate(100%, 0%);
+}
+#BackgroundR4 {
+    z-index: 0;
+    transform: translate(100%, 0%);
+}
+#BackgroundR5 {
+    z-index: 0;
+    transform: translate(100%, 0%);
+}
+.TopBar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(6, 46, 83, 0.9);
+    height: 7vh;
+    width: 100vw;
+    z-index: 10;
+    border-bottom: 3px;
+    border-color: white;
+    border-bottom-style: solid;
+}
+.TopBar > .TextBar {
+    display: flex;
+    justify-content: center;
+    transform: translate(0%, 30%);
+}
+.TopBar > .TextBar > .Text {
+    flex-basis: 9%;
+    padding-top: none;
+    height: 4.5vh;
+    width: 14vh;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    
+    transition: 0.3s ease;
+}
+.TopBar > .TextBar > #Services {
+    margin-right: 1vw;
+    margin-left: 0.5vw;
+}
+#Works {
+    height: 5.7vh;
+    transform: translate(0%,-10%);
+}
+
+button {
+    transition: all 0.2s ease;
+}
+button:active {
+    transform: scale(0.92);
+}
